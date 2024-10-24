@@ -1,0 +1,5 @@
+*/*.h5
+**/*.gz
+**/*.cnvmap
+plots/*
+drafts/*

@@ -1,0 +1,10 @@
+Shocks Seen at L1 Also Detected by MMS
+Wind arrival	MMS Arrival	Notes
+2021-01-11 08:11	2021-01-11 09:23	Only MMS B field data available- verify location
+2021-03-20 11:16	2021-03-20 11:57	MMS in the sheath for this event. Could be a PRIME-SH candidate
+
+2022-01-18 22:58	2022-01-18 23:37	Weak!
+2022-02-01 21:27	2022-01-18 22:19
+2022-04-08 03:59	2022-04-08 04:41	Only MMS B field data available- verify location
+
+
