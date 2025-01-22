@@ -202,6 +202,8 @@ def cnvmap_to_df(cnvmap):
             if (type(slice[key]) == np.ndarray): #If the value is an array figure out the length of the array and create a column for each element
                 if key == 'nvec': #Special case for nvec, which we only need the sum of
                     slice_df[key] = np.sum(slice[key])
+                elif key == 'vector.mlon': #Special case for the magnetic longitude of the vectors, which we need the range of
+                    slice_df['lon_coverage'] = slice[key].max() - slice[key].min()
                 else:
                     continue #This is currently disabled because it is too slow
                 # for j in range(len(slice[key])): #Make a new Series for each key, then concatenate into slice_df (to avoid performance issues with appending to a DataFrame)
